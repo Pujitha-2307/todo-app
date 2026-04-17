@@ -1,0 +1,142 @@
+.app-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  padding-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title-section h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.title-section p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.student-badge {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.student-badge span {
+  display: inline-block;
+  background: #f9fafb;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.form button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.filters button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  background: white;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.todo-text {
+  font-size: 15px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.actions button {
+  padding: 6px 10px;
+  margin-left: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #facc15;
+}
+
+.actions button:last-child {
+  background: #ef4444;
+  color: white;
+}
+
+.empty {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 20px;
+  font-size: 14px;
+}
